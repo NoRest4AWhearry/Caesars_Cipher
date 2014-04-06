@@ -1,4 +1,4 @@
-def ceasar_cipher(string, num)
+def caesar_cipher(string, num)
 	string.each_char do |letter|
 		ord = letter.ord
 		if ord >= 65 && ord <= 90 || ord >= 97 && ord <= 122
@@ -11,4 +11,4 @@ def ceasar_cipher(string, num)
 	end
 end
 string = 'What a string!'
-ceasar_cipher(string, 5)
+caesar_cipher(string, 5)
